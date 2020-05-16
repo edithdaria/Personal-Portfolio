@@ -1,0 +1,122 @@
+
+a {
+    color:white;
+    font-family: 'DM Mono', monospace;
+    font-size: 20pt;
+}
+
+a:hover{
+    color: grey;
+}
+
+
+body{
+
+    min-height: 100vh;
+    background-color: black;
+}
+
+p {
+    color:white;
+    font-family: 'DM Mono', monospace;
+    text-align: center;   
+}
+
+
+h5{
+    text-align: center;
+    color: red;
+}
+
+/*carousel slide side margins*/
+#carouselExampleCaptions {
+    width: 75%;
+  }
+
+footer{
+    text-align: center;
+}
+
+
+/* contact tab - resizing width of fields - text color change */
+.messageBox {
+
+    color: white;
+    font-family: 'DM Mono', monospace;
+    width: 50%;
+
+}
+
+/* portfolio tab - centering objects */
+
+.boxWrapper{
+    min-width: 600px;
+}
+
+ 
+@media screen and (max-width: 768px) {
+
+/*nav-bar text*/
+    a {
+        font-size: 15pt;
+        text-align: center;
+    }
+    p{
+        font-size: 12pt;
+    }  
+    
+    
+    footer{
+        text-align: center;
+        font-size: 10pt;
+    }
+    
+    /* medium screen- contact tab - resizing width of fields - text color change */
+    .messageBox {
+    
+        color: white;
+        font-family: 'DM Mono', monospace;
+        width: 85%;
+        font-size: 12pt;
+    
+    }
+    
+    /*medium screen - carousel slide side margins*/
+    #carouselExampleCaptions {
+        width: 100%;
+      }
+       
+ 
+}       
+
+
+@media screen and (max-width: 480px) {
+
+p{
+    font-size: 10pt;
+}  
+
+
+footer{
+    text-align: center;
+    font-size: 8pt;
+}
+
+/* Small screen- contact tab - resizing width of fields - text color change */
+.messageBox {
+
+    color: white;
+    font-family: 'DM Mono', monospace;
+    width: 75%;
+    font-size: 10pt;
+
+}
+
+/*small screen - carousel slide side margins*/
+#carouselExampleCaptions {
+    width: 95%;
+  }
+
+}
+
+
