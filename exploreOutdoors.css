@@ -27,12 +27,19 @@ p{
     font-size:10pt;
 }
 
-/* #scroll-top {
+#scroll-top {
     position: fixed;
-    background-color: #729678;
+    background-color: #222b23;
+    /* opacity: 0.2; */
     height: 50px;
     width: 50px;
     bottom: 2px;
     right: 2px;
-} */
+    border-top-left-radius: 15px;   
+}
+
+i {
+    color:whitesmoke;
+    /* opacity: 1!important; */
+}
 

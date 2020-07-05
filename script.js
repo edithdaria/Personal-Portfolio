@@ -13,3 +13,10 @@ $(".card-img-top").click( function(event){
         window.location.href = "./exploreOutdoors.html";
     }
 });
+
+$("#scroll-top").click( function(event){
+    event.preventDefault();
+    
+        window.location.href = "./exploreOutdoors.html";
+
+});
