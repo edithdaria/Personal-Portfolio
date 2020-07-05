@@ -16,7 +16,15 @@ $(".card-img-top").click( function(event){
 
 $("#scroll-top").click( function(event){
     event.preventDefault();
-    
-        window.location.href = "./exploreOutdoors.html";
+
+
+    window.location.href = "./exploreOutdoors.html";
+ 
+
+    // if (event.target == null){
+
+    //  window.location.href = "./exploreOutdoors.html";
+
+    // }
 
 });
