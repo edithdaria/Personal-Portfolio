@@ -1,0 +1,50 @@
+h1{
+    color:#f0ad4e;
+    font-family: 'DM Mono', monospace;
+}
+
+h4{
+    color:#f0ad4e;
+    font-family: 'DM Mono', monospace;
+    float: left;
+}
+
+hr {
+    background-color: #f0ad4e;
+    height: 1px;
+}
+
+p{
+    color:whitesmoke;
+
+}
+
+#git-hub:hover {
+    color: #f0ad4e;
+}
+
+#git-hub {
+    font-size:10pt;
+}
+
+#scroll-top {
+    position: fixed;
+    background-color: #f0ad4e;
+    /* opacity: 0.2; */
+    height: 50px;
+    width: 50px;
+    bottom: 0px;
+    right: 0px;
+    border-top-left-radius: 15px;   
+}
+
+i {
+    color:whitesmoke;
+    /* opacity: 1!important; */
+}
+
+.btn{
+    background-color: #774e15!important;
+    font-size: .67em;
+}
+

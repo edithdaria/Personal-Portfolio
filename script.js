@@ -12,6 +12,12 @@ $(".card-img-top").click( function(event){
         //alert("test for data-index");
         window.location.href = "./exploreOutdoors.html";
     }
+
+    if(eventTarget.getAttribute("data-index") === "1"){
+
+        //alert("test for data-index");
+        window.location.href = "./burgerLogger.html";
+    }
 });
 
 $("#scroll-top").click( function(event){
