@@ -1,21 +1,37 @@
-View my portfolio - https://edithdaria.github.io/myPortfolio/index.html
 
-index.html - home page
-- Used Bootstrap carousel to design this page
-- The gif images had to be resized in order for the carousel to be consistent with every slide
-- used fixed-bottom class in bootstrap to achieve to push footer to the bottom
-- To handle responsiveness I added media queries for the font size and proportinality of content
-- I used navbar from bootstrap that turns into toggle icons for smaller screen.
+  
+# Personal PortFolio
 
-portfolio.html - This is my portfolio page
-- I have designed this with card style from bootstrap
-- resized and used work in progress gif to use as a placeholder until the projects are available
-- I have used a few modifications to the sizes of the card in order to make them proportionate
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-contact.html
-This is my contact page
-- I used form from bootstrap to design this page
-- I used media queries for the fields to be resized for smaller devices
+## Description
+Mobile responsive portfolio created with Bootstrap CSS Framework. This site contains personalized works I have heavily invested time in. 
+
+## Table Of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Test](#Test)
+* [Questions](#Questions)
+* [Author](#Author)
 
 
+## Installation
+[Click Here to Launch Portfolio page](https://edithdaria.github.io/myPortfolio/index.html)
+
+## Usage
+View my personal works
+
+## Contribute
+Clone this repo and make modifications to your copy.
+
+## Test
+No testing instructions provided at this time.
+
+## Questions
+
+If you have any questions don't hesitate to create an issue for this repository 
+
+## Author
+![Repo Owner Image](https://avatars.githubusercontent.com/edithdaria?s=100)
 
