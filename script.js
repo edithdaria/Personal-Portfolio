@@ -30,6 +30,6 @@ $("#scroll-top").click( function(event){
 $("#scroll-top-burger").click( function(event){
     event.preventDefault();
 
-    window.location.href = "./exploreOutdoors.html";
+    window.location.href = "./burgerLogger.html";
  
 });
