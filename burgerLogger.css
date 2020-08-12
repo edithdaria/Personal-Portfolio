@@ -27,7 +27,7 @@ p{
     font-size:10pt;
 }
 
-#scroll-top {
+#scroll-top-burger {
     position: fixed;
     background-color: #f0ad4e;
     /* opacity: 0.2; */
