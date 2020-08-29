@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 //connect to mongoose
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/inquiredb", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://user:password1@ds255715.mlab.com:55715/heroku_0gw0r6l7", { useNewUrlParser: true });
 
 // Route to post our form submission to mongoDB via mongoose
 app.post('/submit', ({body}, res) =>{
