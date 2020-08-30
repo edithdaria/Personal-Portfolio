@@ -34,6 +34,8 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Inquire',
 }
 );
 
+//mongoose.connect('mongodb+srv://user:Password1@cluster0.fexr3.mongodb.net/Inquire?retryWrites=true&w=majority', {useNewUrlParser: true});
+
 // Route to post our form submission to mongoDB via mongoose
 app.post('/submit', ({body}, res) =>{
     Inquire.create(body)
