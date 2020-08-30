@@ -24,8 +24,15 @@ app.use(express.json());
 //middleware to render static content
 app.use(express.static('public'));
 
-//connect to mongoose
-mongoose.connect(process.env.MONGODB_URI || "mongodb://user:password1@ds255715.mlab.com:55715/heroku_0gw0r6l7", { useNewUrlParser: true });
+//connect to mongoose. url parser - useNewUrlParser - new version
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Inquire',
+{
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+  useFindAndModify: false
+}
+);
 
 // Route to post our form submission to mongoDB via mongoose
 app.post('/submit', ({body}, res) =>{
