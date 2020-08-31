@@ -16,6 +16,12 @@ $(".card-img-top").click( function(event){
     if(eventTarget.getAttribute("data-index") === "1"){
 
         //alert("test for data-index");
+        window.location.href = "./heimdall.html";
+    }
+
+    if(eventTarget.getAttribute("data-index") === "2"){
+
+        //alert("test for data-index");
         window.location.href = "./burgerLogger.html";
     }
 });
