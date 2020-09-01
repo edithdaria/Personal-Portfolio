@@ -17,7 +17,7 @@ Mobile responsive portfolio created with Bootstrap CSS Framework. This site cont
 
 
 ## Installation
-[Click Here to Launch Portfolio page](https://edithdaria.github.io/Personal-Portfolio/)
+[Click Here to Launch Portfolio page](https://floating-cliffs-94701.herokuapp.com/)
 
 ## Usage
 View my personal works
