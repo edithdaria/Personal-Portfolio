@@ -2,6 +2,8 @@
 const express = require('express');
 const logger = require('morgan');
 const mongoose = require('mongoose');
+//const mongojs = require("mongojs");	
+//const dotenv = require("dotenv").config();
 
 //listening port from heroku or localhost://3000
 const PORT = process.env.PORT || 3000;
@@ -24,6 +26,8 @@ app.use(express.json());
 //middleware to render static content
 app.use(express.static('public'));
 
+//mongojs(process.env.MONGODB_URI, ["inquires"]);
+
 //connect to mongoose. url parser - useNewUrlParser - new version
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Inquire',
 {
@@ -34,7 +38,6 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Inquire',
 }
 );
 
-//mongoose.connect('mongodb+srv://user:Password1@cluster0.fexr3.mongodb.net/Inquire?retryWrites=true&w=majority', {useNewUrlParser: true});
 
 // Route to post our form submission to mongoDB via mongoose
 app.post('/submit', ({body}, res) =>{
