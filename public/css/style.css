@@ -1,5 +1,5 @@
 
-.navbar, .navbar-brand {
+.navbar, .navbar-brand, .btn-try {
     color:white;
     font-family: 'DM Mono', monospace;
     font-size: 20pt;
@@ -9,6 +9,7 @@
 a:hover{
     color: grey;
 }
+
 
 #resumeLink {
     font-size: 16px!important;
@@ -86,7 +87,7 @@ footer{
 @media screen and (max-width: 768px) {
 
 /*nav-bar text*/
-.navbar, .navbar-brand {
+.navbar, .navbar-brand, .btn-try {
         font-size: 15pt! important;
 
     }
@@ -143,7 +144,7 @@ footer{
 
 @media screen and (max-width: 480px) {
 
-.navbar, .navbar-brand {
+.navbar, .navbar-brand, .btn-try {
         font-size: 12pt! important;
 
     }
