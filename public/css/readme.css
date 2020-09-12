@@ -1,0 +1,53 @@
+h1{
+    color:#0865c2;
+    font-family: 'DM Mono', monospace;
+}
+
+h4{
+    color:#0865c2;
+    font-family: 'DM Mono', monospace;
+    float: left;
+}
+
+hr {
+    background-color: #0865c2;
+    height: 1px;
+}
+
+p{
+    color:whitesmoke;
+
+}
+
+.card-text {
+    text-align: left;
+}
+
+#git-hub:hover {
+    color: #0865c2;
+}
+
+#git-hub {
+    font-size:10pt;
+}
+
+#scroll-top-burger {
+    position: fixed;
+    background-color: #0865c2;
+    /* opacity: 0.2; */
+    height: 50px;
+    width: 50px;
+    bottom: 0px;
+    right: 0px;
+    border-top-left-radius: 15px;   
+}
+
+i {
+    color:whitesmoke;
+    /* opacity: 1!important; */
+}
+
+.btn{
+    background-color: #774e15!important;
+    font-size: .67em;
+}

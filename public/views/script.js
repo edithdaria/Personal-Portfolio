@@ -22,8 +22,16 @@ $(".card-img-top").click( function(event){
     if(eventTarget.getAttribute("data-index") === "2"){
 
         //alert("test for data-index");
+        window.location.href = "./readme.html";
+    }
+
+    if(eventTarget.getAttribute("data-index") === "3"){
+
+        //alert("test for data-index");
         window.location.href = "./burgerLogger.html";
     }
+
+    
 });
 
 $("#scroll-top").click( function(event){

@@ -1,13 +1,17 @@
 
-a {
+.navbar, .navbar-brand {
     color:white;
     font-family: 'DM Mono', monospace;
-    font-size: 20pt! important;
+    font-size: 20pt;
     text-align: center;
 }
 
 a:hover{
     color: grey;
+}
+
+#resumeLink {
+    font-size: 16px!important;
 }
 
 
@@ -82,7 +86,7 @@ footer{
 @media screen and (max-width: 768px) {
 
 /*nav-bar text*/
-    a {
+.navbar, .navbar-brand {
         font-size: 15pt! important;
 
     }
@@ -90,6 +94,10 @@ footer{
     p
     {
         font-size: 12pt;
+    }
+
+    #resumeLink {
+        font-size: 12pt!important;
     }
 
 
@@ -135,14 +143,19 @@ footer{
 
 @media screen and (max-width: 480px) {
 
-    a {
+.navbar, .navbar-brand {
         font-size: 12pt! important;
 
     }
 
-p{
+p {
     font-size: 10pt;
 }
+
+#resumeLink {
+    font-size: 10pt;
+}
+
 
 
 footer{
